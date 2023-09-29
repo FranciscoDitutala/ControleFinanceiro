@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h3 class="finance-tittle">Controlo de despesas</h3>
+    <div class="saldo_actual">
+        <p>Saldo Actual</p>
+        <h3 id="total" >R$ 0.00</h3>
+    </div>
+    <div class="disp_receita">
+        <div class="receita">
+            <h3 id="">RECEITAS</h3>
+            <p id="income" class=" ">R$ 0.00 </p>
+        </div>
+        <div class="linha">
+
+        </div>
+        <div class="despesa">
+            <h3 id="" >DESPESAS</h3>
+            <p id="expense" class=" ">R$ 0.00 </p>
+        </div>
+    </div>
+   
+        
+    <h3 class="trans_tittle">Transações</h3>
+
+    <ul id="transactions" class="transactions">
+
+    </ul>
+
+    <h3 class="trans_tittle1">Adicionaar Transações</h3>
+
+    <form action="" class="form" method="get">
+            <label for="name_transaction2">Nome</label>
+        <input id="name_transaction" type="text" name="name_transaction" placeholder="Nome da Transação">
+        
+            <label for="amount2">Valor</label>
+            <p>(negativo - despesa , positivo-receita)</p>
+        <input id="amount" type="number" name="amount" placeholder="Valor da Transação">
+        <button type="submit"> Adicionar</button>
+    </form>
+
+    </div>
+
+    
+</body>
+<script src="index.js">
+
+</script>
+
+</html>
